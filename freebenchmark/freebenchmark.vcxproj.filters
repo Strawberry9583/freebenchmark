@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="utility">
+      <UniqueIdentifier>{ee3e270d-ef14-4152-b429-009c84414cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\kd-tree">
+      <UniqueIdentifier>{c6df4c05-c994-4fff-a388-d41d98f508c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\mapbox">
+      <UniqueIdentifier>{e7efd75e-432d-4442-be42-c1cf8fa0d7c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\random">
+      <UniqueIdentifier>{2c98d514-b17f-4a1a-a52b-a30134764e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\typevar">
+      <UniqueIdentifier>{f51e43fd-60c2-41dc-9939-06ac4ae2d105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freepeak">
+      <UniqueIdentifier>{9f33d569-1fe0-4318-8bcd-3218617a7abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freepeak\free_onepeak">
+      <UniqueIdentifier>{10b20937-c161-4b35-81c7-17374a4187fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freepeak\onepeak">
+      <UniqueIdentifier>{5f582fc0-8324-4d7a-980a-7f9ec241c4ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freepeak\property">
+      <UniqueIdentifier>{a1e73a72-019a-42af-9c86-8452273b746c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utility\catch.hpp">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\definition.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\factory.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\functional.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\matrix.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\myexcept.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\types.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\vector.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\kd-tree\kdtree_space.h">
+      <Filter>utility\kd-tree</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\mapbox\recursive_wrapper.hpp">
+      <Filter>utility\mapbox</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\mapbox\variant.hpp">
+      <Filter>utility\mapbox</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\mapbox\variant_cast.hpp">
+      <Filter>utility\mapbox</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\mapbox\variant_io.hpp">
+      <Filter>utility\mapbox</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\mapbox\variant_visitor.hpp">
+      <Filter>utility\mapbox</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\random\extreal.h">
+      <Filter>utility\random</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\random\newran.h">
+      <Filter>utility\random</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\typevar\typevar.h">
+      <Filter>utility\typevar</Filter>
+    </ClInclude>
+    <ClInclude Include="freepeak\ffreepeak.h">
+      <Filter>freepeak</Filter>
+    </ClInclude>
+    <ClInclude Include="freepeak\kdtree.h">
+      <Filter>freepeak</Filter>
+    </ClInclude>
+    <ClInclude Include="freepeak\problem_base.h">
+      <Filter>freepeak</Filter>
+    </ClInclude>
+    <ClInclude Include="freepeak\shape_base.h">
+      <Filter>freepeak</Filter>
+    </ClInclude>
+    <ClInclude Include="freepeak\definition.h">
+      <Filter>freepeak</Filter>
+    </ClInclude>
+    <ClInclude Include="freepeak\free_onepeak\free_dynamic_onepeak.h">
+      <Filter>freepeak\free_onepeak</Filter>
+    </ClInclude>
+    <ClInclude Include="freepeak\free_onepeak\free_onepeak.h">
+      <Filter>freepeak\free_onepeak</Filter>
+    </ClInclude>
+    <ClInclude Include="freepeak\free_onepeak\free_static_onepeak.h">
+      <Filter>freepeak\free_onepeak</Filter>
+    </ClInclude>
+    <ClInclude Include="freepeak\property\property.h">
+      <Filter>freepeak\property</Filter>
+    </ClInclude>
+    <ClInclude Include="freepeak\property\property_base.h">
+      <Filter>freepeak\property</Filter>
+    </ClInclude>
+    <ClInclude Include="freepeak\onepeak\dynamic_multi_onepeak.h">
+      <Filter>freepeak\onepeak</Filter>
+    </ClInclude>
+    <ClInclude Include="freepeak\onepeak\dynamic_onepeak.h">
+      <Filter>freepeak\onepeak</Filter>
+    </ClInclude>
+    <ClInclude Include="freepeak\onepeak\multi_onepeak.h">
+      <Filter>freepeak\onepeak</Filter>
+    </ClInclude>
+    <ClInclude Include="freepeak\onepeak\onepeak.h">
+      <Filter>freepeak\onepeak</Filter>
+    </ClInclude>
+    <ClInclude Include="freepeak\onepeak\static_onepeak.h">
+      <Filter>freepeak\onepeak</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="utility\matrix.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\vector.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\random\extreal.cpp">
+      <Filter>utility\random</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\random\newran.cpp">
+      <Filter>utility\random</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\typevar\arithmetic.cpp">
+      <Filter>utility\typevar</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\typevar\assign.cpp">
+      <Filter>utility\typevar</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\typevar\ctor.cpp">
+      <Filter>utility\typevar</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\typevar\dynamic.cpp">
+      <Filter>utility\typevar</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\typevar\relational.cpp">
+      <Filter>utility\typevar</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\typevar\types.cpp">
+      <Filter>utility\typevar</Filter>
+    </ClCompile>
+    <ClCompile Include="freepeak\fptest.cpp">
+      <Filter>freepeak</Filter>
+    </ClCompile>
+    <ClCompile Include="freepeak\free_onepeak\free_onepeak.cpp">
+      <Filter>freepeak\free_onepeak</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
