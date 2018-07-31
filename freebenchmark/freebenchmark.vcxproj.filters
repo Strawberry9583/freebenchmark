@@ -164,5 +164,6 @@
     <ClCompile Include="freepeak\free_onepeak\free_onepeak.cpp">
       <Filter>freepeak\free_onepeak</Filter>
     </ClCompile>
+    <ClCompile Include="freepeak\onepeak\onepeak.cpp" />
   </ItemGroup>
 </Project>

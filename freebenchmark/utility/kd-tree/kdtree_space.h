@@ -232,7 +232,7 @@ namespace KDTreeSpace
 	public:
 		std::vector<BoundingBox> region;
 
-		std::vector<IndexType> & get_idx() { return m_vidn; }
+		std::vector<IndexType> & get_idx() { return m_vind; }
 		const std::vector<IndexType> & get_idx()const { return m_vind; }
 
 		//constructor based on the pointdata

@@ -4,8 +4,12 @@
 #include"../freepeak/free_onepeak/free_static_onepeak.h"
 #include<vector>
 #include<memory>
+#include"../utility/factory.h"
 int main()
 {
+	free_onepeak onepeak1;
+	onepeak1.register_par();
+
 	OFEC::param_map v;
 	std::vector<double> space_ratio = { 0.1,0.2,0.3,0.4 };
 	std::vector<std::pair<double, double>> space_domain = { std::make_pair<double,double>(0,100),

@@ -17,11 +17,11 @@ class onepeak: public problem_base
 public:
 	onepeak() {}
 	~onepeak() {}
-	const int dim() const { return m_num_dim; }
+	const int dim() const { return m_dim; }
 protected:
 	//int m_id;
 	std::string m_name;
-	int m_num_dim;
+	int m_dim;
 	// the total evals and the number of countable evlas 
 	int m_total_evaluations;
 	int m_current_evaluations;
@@ -31,7 +31,7 @@ protected:
 	compare m_compare_mode = compare::MIN_OPT;
 
 
-	double m_height = 100;
+	//double m_height = 100;
 
 	double m_furest_dis;		// the longest distance from location to boarder points 
 	double m_nearest_dis;	// the shortest distance from location to boundary points
@@ -42,23 +42,25 @@ protected:
 	double m_subspace_ratio;
 
 	std::set<OFEC::property_type> m_property_type;
-	std::unique_ptr<property> m_property;
-	std::vector<std::unique_ptr<shape_base>> m_simple_function;
+	std::shared_ptr<property> m_property;
+	std::vector<std::shared_ptr<shape_base>> m_simple_function;
 	std::vector<std::vector<double>> m_peak_optimal;
 
 	
 protected:
 
-	void rename();
-	void resize_dim();
-	void set_accuaracy();
+	void rename(const std::string & name);
+	void resize_dim(int dim);
+	void set_accuaracy(double accuracy);
 
-	//Besides, there are other basic interface;
+	
 
-	virtual void evaluate(){}
+	virtual std::vector<double> evaluate(const std::vector<double> & sol);
 
 public:
-
+	onepeak(){}
+	~onepeak(){}
+	void initialize();
 
 };
 

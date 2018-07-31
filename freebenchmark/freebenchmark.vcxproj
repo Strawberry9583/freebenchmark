@@ -147,6 +147,7 @@
   <ItemGroup>
     <ClCompile Include="freepeak\fptest.cpp" />
     <ClCompile Include="freepeak\free_onepeak\free_onepeak.cpp" />
+    <ClCompile Include="freepeak\onepeak\onepeak.cpp" />
     <ClCompile Include="utility\matrix.cpp" />
     <ClCompile Include="utility\random\extreal.cpp" />
     <ClCompile Include="utility\random\newran.cpp" />

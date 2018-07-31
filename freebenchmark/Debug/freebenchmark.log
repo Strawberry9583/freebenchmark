@@ -1,19 +1,16 @@
-﻿  fptest.cpp
-e:\programming\vs2017\freebenchmark\freebenchmark\utility\kd-tree\kdtree_space.h(285): warning C4018: “<”: 有符号/无符号不匹配
-  e:\programming\vs2017\freebenchmark\freebenchmark\utility\kd-tree\kdtree_space.h(284): note: 编译 类 模板 成员函数 "void KDTreeSpace::PartitioningKDTree<double,::size_t>::regionShow(void)" 时
-  e:\programming\vs2017\freebenchmark\freebenchmark\freepeak\fptest.cpp(19): note: 参见对正在编译的函数 模板 实例化“void KDTreeSpace::PartitioningKDTree<double,::size_t>::regionShow(void)”的引用
-  e:\programming\vs2017\freebenchmark\freebenchmark\freepeak\fptest.cpp(17): note: 参见对正在编译的 类 模板 实例化 "KDTreeSpace::PartitioningKDTree<double,::size_t>" 的引用
-e:\programming\vs2017\freebenchmark\freebenchmark\utility\kd-tree\kdtree_space.h(532): warning C4018: “<”: 有符号/无符号不匹配
-  e:\programming\vs2017\freebenchmark\freebenchmark\utility\kd-tree\kdtree_space.h(517): note: 编译 类 模板 成员函数 "void KDTreeSpace::PartitioningKDTree<double,::size_t>::midSplit(IndexType *,IndexType,IndexType &,int &,ElementType &,const KDTreeSpace::PartitioningKDTree<ElementType,IndexType>::BoundingBox &,int)" 时
+﻿  free_onepeak.cpp
+e:\programming\vs2017\freebenchmark\freebenchmark\utility\kd-tree\kdtree_space.h(535): warning C4018: “<”: 有符号/无符号不匹配
+  e:\programming\vs2017\freebenchmark\freebenchmark\utility\kd-tree\kdtree_space.h(520): note: 编译 类 模板 成员函数 "void KDTreeSpace::PartitioningKDTree<double,::size_t>::midSplit(IndexType *,IndexType,IndexType &,int &,ElementType &,const KDTreeSpace::PartitioningKDTree<ElementType,IndexType>::BoundingBox &,int)" 时
           with
           [
               IndexType=::size_t,
               ElementType=double
           ]
-  e:\programming\vs2017\freebenchmark\freebenchmark\utility\kd-tree\kdtree_space.h(455): note: 参见对正在编译的函数 模板 实例化“void KDTreeSpace::PartitioningKDTree<double,::size_t>::midSplit(IndexType *,IndexType,IndexType &,int &,ElementType &,const KDTreeSpace::PartitioningKDTree<ElementType,IndexType>::BoundingBox &,int)”的引用
+  e:\programming\vs2017\freebenchmark\freebenchmark\utility\kd-tree\kdtree_space.h(458): note: 参见对正在编译的函数 模板 实例化“void KDTreeSpace::PartitioningKDTree<double,::size_t>::midSplit(IndexType *,IndexType,IndexType &,int &,ElementType &,const KDTreeSpace::PartitioningKDTree<ElementType,IndexType>::BoundingBox &,int)”的引用
           with
           [
               IndexType=::size_t,
               ElementType=double
           ]
+  e:\programming\vs2017\freebenchmark\freebenchmark\freepeak\free_onepeak\free_onepeak.cpp(7): note: 参见对正在编译的 类 模板 实例化 "KDTreeSpace::PartitioningKDTree<double,::size_t>" 的引用
   freebenchmark.vcxproj -> E:\programming\vs2017\freebenchmark\Debug\freebenchmark.exe
